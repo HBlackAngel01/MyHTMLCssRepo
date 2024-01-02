@@ -9,20 +9,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #23242a;
+    background: black;
 }
 .Box{
     position: relative;
     width: 380px;
     height: 420px;
-    background: #1c1c1c;
+    background: lawngreen;
     border-radius: 8px;
 }
 
 .Box form{
     position: absolute;
     inset: 4px;
-    background: #222;
+    background: black;
     padding: 50px 40px;
     border-radius: 8px;
     Z-index: 2;
@@ -36,6 +36,8 @@ body{
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.1em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid lawngreen;
 }
 
 .Box form .inputBox{
@@ -52,13 +54,14 @@ body{
     padding: 20px 10px 10px;
     background: transparent;
     outline: none;
-    border: none;
+    border: 1px solid lawngreen;
     box-shadow: none;
-    color: #23242a;
+    color: lawngreen;
     font-size: 1em;
     letter-spacing: 0.05em;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: 10;
+    border-radius: 10px;
 }
 
 .Box form .inputBox span
@@ -79,4 +82,22 @@ body{
     transform: translateY(-34px);
 
 }
+.SubmitBox{
+    margin-top: 50px;
+    text-align: center;
+}
+.links{
+    margin-top: 20px;
 
+}
+.links a{
+    color: lawngreen;
+}
+.SubmitBox input{
+    height: 35px;
+    width: 100px;
+    border:2px solid lawngreen;
+    background: lawngreen;
+    color: black;
+    border-radius: 12px;
+}
