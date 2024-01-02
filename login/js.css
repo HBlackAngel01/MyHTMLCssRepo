@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgba(225,225,225, .2);
+    background: transparent;
+    background-image:url("wallpaperflare.com_wallpaper (16).jpg");
+    background-size: cover;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 100px 100px 200px 100px;
+    margin: 100px 100px 100px 100px;
+    row-gap: 30px;
+    column-gap: 20px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: 40px;
+    left:400px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: end;
+    background-color: rgba(225,225,225, .2);
+    border: 1px outset grey;
+    box-shadow: -3px -4px 12px skyblue;
+}
+.img1{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    padding: 2px; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input.inpt{
+    height: 25px;
+    margin-left: 20px;
+    font-style:italic;
+    font-weight: 200;
+    font-size:larger ;
+    border: hidden;
+    outline: none;
+    color: black;
+
+}
+.cn1{
+    background-color:white;
+    border-radius: 10px;
+    width: 320px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+.head{
+    color:white;
+    margin-left:60px;
+    margin-top: -60px;
+    border-bottom: 2px solid white;
+    margin-left: -20px;
+}
+.log{
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+    outline: none;
+}
+
+h1{
+    margin-left: 80px;
+}
